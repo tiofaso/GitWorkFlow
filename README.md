@@ -16,7 +16,7 @@ A divisão do trabalho foi a seguinite:
 * **Classe filha 1 (soma)** > Nic
 * **Classe filha 2 (subtração)** > Pedro
 * **Classe filha 3 (multiplicação) e 4 (divisão)** > Lack
-* ** Classe Main** > Tio .faso
+* **Classe Main()** > Tio .faso
 
 Os únicos parâmetros comuns entre todos eram os seguintes:\
 1. Passar dois valores double X e Y;
