@@ -1,4 +1,4 @@
-import src.Calculadora;
+import src;
 
 public class Multiplicacao extends Calculadora {
 @Override
