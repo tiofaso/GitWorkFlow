@@ -23,9 +23,9 @@ public class Main {
         int numeroUsuario = entrada.nextInt();
 
         //verificando se o usuário fez uma opção válida
-        if(numeroUsuario < 1 || numeroUsuario > 4 ) {
+        if (numeroUsuario < 1 || numeroUsuario > 4) {
             int numErrado = 1;
-            while(numErrado == 1) {
+            while (numErrado == 1) {
 
                 System.out.println("+------------------------------------------------+");
                 System.out.println("| AVISO! É preciso escolher uma opercação válida |");
@@ -39,7 +39,9 @@ public class Main {
 
                 numeroUsuario = entrada.nextInt();
 
-                if(numeroUsuario >= 1 && numeroUsuario <= 4){numErrado = 0;}
+                if (numeroUsuario >= 1 && numeroUsuario <= 4) {
+                    numErrado = 0;
+                }
 
             }//Fim while
 
