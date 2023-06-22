@@ -1,8 +1,8 @@
-package Operacoes;
+import src.Calculadora;
 
 public class Multiplicacao extends Calculadora {
 @Override
-    public void operacao() {
+    public double operacao() {
 
     }
 }
