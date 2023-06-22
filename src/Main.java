@@ -1,3 +1,8 @@
+import src.Divisao;
+import src.Multiplicacao;
+import src.Soma;
+import src.Subtracao;
+
 import java.util.Scanner;
 
 public class Main {
@@ -39,7 +44,37 @@ public class Main {
             }//Fim while
 
             System.out.println("\n---------------------------------------------------------");
-
         }
+
+        System.out.printf("Digite o primeiro número:");
+        double x = entrada.nextDouble();
+
+        System.out.printf("\nDigite o segundo número:");
+        double y = entrada.nextDouble();
+
+        double resultado;
+
+        switch (numeroUsuario) {
+            case 1: //Soma
+                Soma somaFinal = new Soma(x, y, 0);
+                resultado = somaFinal.operacao();
+                System.out.printf("O resultado da soma de " + x + " + " + y + "= " + resultado);
+                break;
+            case 2: //Subtração
+                Subtracao subtracaoFinal = new Subtracao(x, y, 0);
+                resultado = subtracaoFinal.operacao();
+                System.out.printf("O resultado da subtração de " + x + " - " + y + "= " + resultado);
+                break;
+            case 3: //Multiplicação
+                Multiplicacao multiplicacaoFinal = new Multiplicacao(x, y, 0);
+                resultado = multiplicacaoFinal.operacao();
+                System.out.printf("O resultado da multiplicação de " + x + " x " + y + "= " + resultado);
+                break;
+            case 4: //Divisão
+                Divisao divisaoFinal = new Divisao(x, y, 0);
+                resultado = divisaoFinal.operacao();
+                System.out.printf("O resultado da divisão de " + x + " / " + y + "= " + resultado);
+                break;
+        }// Fim switch
     }
 }
