@@ -3,7 +3,7 @@ Primeiro readme do workflow
 Classe abstrata > Giorgia
 Classe filha 1 > Nicoly
 Classe filha 2 > Pedro
-Classe filha 2 e 3 > Lack
+Classe filha 3 e 4 > Lack
 
 Passar dois valores double X e Y
 
