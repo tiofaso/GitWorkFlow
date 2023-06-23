@@ -1,3 +1,5 @@
+package src;
+
 import src.Divisao;
 import src.Multiplicacao;
 import src.Soma;
