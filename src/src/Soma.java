@@ -1,6 +1,6 @@
 package src;
-import static org.mockito.Mockito.*;
-public class Soma extends src.Calculadora {
+
+public class Soma extends Calculadora {
     public Soma(double num1, double num2, double resultado){
         super(num1,num2,resultado);
     }

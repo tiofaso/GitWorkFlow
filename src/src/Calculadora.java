@@ -12,10 +12,9 @@ public abstract class Calculadora {
         this.resultado = resultado;
     }
 
-    public double operacao() {
+    public Calculadora(){}
 
-        return resultado;
-    }
+    public abstract double operacao();
 }
 
 //
